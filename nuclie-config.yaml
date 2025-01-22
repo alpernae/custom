@@ -1,0 +1,30 @@
+# Global headers for each request
+headers:
+  X-BugBounty: "@alpernae"
+
+# Templates and configurations
+templates:
+  - http/ # http/ dizinindeki şablonları çalıştır
+
+# Templates to exclude from scanning
+exclude:
+  - http/technologies
+  - http/osint
+  - http/fuzzing
+  - http/honeypot
+  - http/iot
+
+# Minimum severity level
+severity: low,medium,high,critical # Low ve üstü (Low, Medium, High, Critical) seviyeleri göster
+
+# Use a random User-Agent for each request
+random-agent: true
+
+# Performance configurations
+rate-limit: 5000 # Hedefi aşırı yüklememek için limit
+bulk-size: 100 # Toplu gönderim boyutu
+concurrency: 100 # Paralel istek sayısı
+
+# Reporting options
+silent: false # Çıktıları ayrıntılı göster
+stats: false # İstatistikleri göster

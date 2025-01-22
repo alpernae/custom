@@ -1,0 +1,12 @@
+discord:
+  - id: "ct-log"
+    discord_channel: "ct-monitor"
+    discord_username: "ct-log"
+    discord_format: "{{data}}"
+    discord_webhook_url: "https://discord.com/api/webhooks/1331352299280400384/OYHIxg6fDsG6coHXaa4nyLnTbXDpSG9tMLkjuHivtytI88_T4qROH6bGWUXFqGCW0yNF"
+
+  - id: "tool-scan"
+    discord_channel: "tool-scan"
+    discord_username: "tool-scan"
+    discord_format: "{{data}}"
+    discord_webhook_url: "https://discord.com/api/webhooks/1331370425535430752/CWUDnuSIrzLpKqUQ9k0Ep8GHBh0Pl4JK9ZQYfot85w4BToE--AqCzE9-bRfslme33goK"
