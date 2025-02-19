@@ -10,6 +10,7 @@ sudo apt install golang seclists ffuf sqlmap nmap python3 -y
 # Project Discovery Tools
 
 echo "Installing ProjectDiscovery Tools"
+go install -v github.com/projectdiscovery/notify/cmd/notify@latest
 go install -v github.com/projectdiscovery/nuclei/v3/cmd/nuclei@latest
 go install -v github.com/projectdiscovery/httpx/cmd/httpx@latest
 go install -v github.com/projectdiscovery/naabu/v2/cmd/naabu@latest
