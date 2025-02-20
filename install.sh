@@ -3,8 +3,8 @@
 # Update APT
 
 echo "Updating APT Source List & Installing some kali tools"
-sudo apt update -y
-sudo apt upgrade -y
+sudo apt-get update -y
+sudo apt-get upgrade -y
 sudo apt install golang seclists ffuf sqlmap nmap python3 -y
 
 # Project Discovery Tools
